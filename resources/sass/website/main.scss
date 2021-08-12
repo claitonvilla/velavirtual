@@ -1,0 +1,49 @@
+section#menu {
+    background-color: #fff;
+    .navbar{
+        background-color: #fff; 
+        a {
+            img {
+
+            }
+        }
+        form {
+            input {
+
+            }
+            button {
+                border-color: #0d588e;
+                font-family: 'Rajdhani', sans-serif;
+                color: #0d588e;
+                &:hover {
+                background-color: #0d588e;
+                color: #fff;
+                }
+            }
+        }
+    }
+
+}
+section#footer {
+    padding-top: 10px;
+    border-top: 1px solid #ADB0B9;
+    background-color: #fff;
+    .row {
+        .logo {
+            display: flex;
+            align-items: center;
+            font-family: 'Rajdhani', sans-serif;
+            color: #0d588e;          
+        }
+        .allrights {
+            display: flex;
+            align-items: center;
+            h3 {
+                color: #000;
+                font-size: 0.85714rem;
+                font-family: "Exo", sans-serif; 
+                                                      
+            }              
+        }
+    }
+}

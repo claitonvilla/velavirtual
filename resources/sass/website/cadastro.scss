@@ -1,0 +1,76 @@
+section#cadastro {
+    background-color: #fff;    
+    .formulario {
+        padding: 150px 0px 150px 0px;
+
+        .title {
+            h1{
+                padding: 30px 0 30px 0;
+                font-family: 'Rajdhani', sans-serif;
+                color: #0d588e;
+                font-weight: 700;
+            }
+        }
+        form {
+            min-height: 80vh;
+            
+            
+            .form-group {
+                label {
+                    font-family: 'Rajdhani', sans-serif;
+
+                }
+                input {
+                    background-color: #f4f6f8;  
+                    border: none;
+                    border-radius: 10px;
+                    font-family: 'Rajdhani', sans-serif;                   
+
+                }
+            }
+            .form-group {
+                label {
+                    font-family: 'Rajdhani', sans-serif;
+
+                }
+                textarea {
+                    background-color: #f4f6f8;  
+                    border: none;
+                    border-radius: 10px;
+                    font-family: 'Rajdhani', sans-serif;
+                }
+            }
+            .form-group {
+                label {
+                    font-family: 'Rajdhani', sans-serif;
+                    select {
+                        background-color: #f4f6f8;  
+                        border: none;
+                        border-radius: 10px;
+                        font-family: 'Rajdhani', sans-serif;
+                        option {
+                            font-family: 'Rajdhani', sans-serif;
+                            font-size: 15px;
+
+                        }
+                    }
+                }
+            }
+            .form-check {
+                input {
+
+                }
+                h3 {
+                    font-family: 'Rajdhani', sans-serif;  
+                }
+            }
+            button {
+                background-color: #0d588e;
+                color: #fff;
+                font-family: 'Rajdhani', sans-serif;
+                width: 100%;
+                margin-top: 40px;
+            } 
+        }
+    }
+}
